@@ -1,0 +1,316 @@
+:root {
+    --main-bg-color: #F8F4F2; 
+    --container-bg-color: #FFFFFF;
+    --primary-color: #A0837D;
+    --primary-hover-color: #8C6A64;
+    --header-color: #6C5B57;
+    --text-color: #4A3A36;
+    --light-button-bg: #F5F0EE;
+    --light-button-border: #D3C5C0;
+    --correct-color: #C8E6C9;
+    --incorrect-color: #FFCDD2; 
+
+    --secondary-button-color-blue: #A2D2FF;
+    --secondary-button-hover-blue: #89C0F0;
+    --secondary-button-color-orange: #FFDDA0;
+    --secondary-button-hover-orange: #FFCC70;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: var(--container-bg-color);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+    position: relative; 
+}
+
+h1 {
+    color: var(--header-color); 
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--header-color); 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+.option-btn {
+    background-color: var(--light-button-bg);
+    color: var(--text-color);
+    border: 1px solid var(--light-button-border);
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.option-btn:hover {
+    background-color: #e9e9e9; 
+    border-color: #c0c0c0;
+}
+
+.option-btn.correct {
+    background-color: var(--correct-color);
+    border-color: #28a745; 
+}
+
+.option-btn.incorrect {
+    background-color: var(--incorrect-color);
+    border-color: #dc3545; 
+}
+
+#feedback, #kana-feedback, #vocabulary-feedback, #translation-feedback {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--text-color); 
+}
+
+#score-display, #kana-score-display, #vocabulary-score-display, #translation-score-display {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: var(--header-color); 
+}
+
+.hidden {
+    display: none !important; 
+}
+
+#question-display, #kana-display, #vocabulary-display, #translation-question-display {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: var(--text-color);
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 15px auto; 
+    border: 1px solid var(--light-button-border); 
+    border-radius: 5px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--container-bg-color); 
+    display: block;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    text-align: left; 
+}
+
+#checkTranslation {
+    background-color: var(--secondary-button-color-orange);
+}
+
+#checkTranslation:hover {
+    background-color: var(--secondary-button-hover-orange);
+}
+.header-controls {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    z-index: 10;
+}
+
+.main-menu-controls {
+    top: 20px;
+    right: 20px;
+    
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--header-color);
+    font-size: 1em;
+}
+
+.menu-toggle .hamburger {
+    width: 25px;
+    height: 20px;
+    position: relative;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-toggle .hamburger .bar {
+    width: 100%;
+    height: 3px;
+    background-color: var(--header-color);
+    border-radius: 5px;
+}
+
+.menu-toggle span {
+    font-weight: bold;
+}
+
+#game-menu-overlay, #main-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+.game-menu-content {
+    background-color: var(--container-bg-color); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.game-menu-content h3 {
+    color: var(--header-color);
+    margin-bottom: 20px;
+}
+
+.game-menu-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    width: 80%; 
+}
+
+#resume-game {
+    background-color: var(--primary-color); 
+}
+#resume-game:hover {
+    background-color: var(--primary-hover-color);
+}
+
+#return-to-main, #exit-game, #view-leaderboard-from-menu, #logout-from-menu { 
+    background-color: var(--secondary-button-color-blue);
+}
+#return-to-main:hover, #exit-game:hover, #view-leaderboard-from-menu:hover, #logout-from-menu:hover {
+    background-color: var(--secondary-button-hover-blue);
+}
+
+#close-main-menu-overlay { 
+    background-color: #ccc; 
+    color: var(--text-color);
+}
+#close-main-menu-overlay:hover {
+    background-color: #bbb;
+}
+
+#auth-section input[type="text"],
+#auth-section input[type="email"],
+#auth-section input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid var(--light-button-border);
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+#auth-section button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+#auth-section button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+#auth-status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#leaderboard-list li {
+    background-color: var(--light-button-bg);
+    border: 1px solid var(--light-button-border);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+#leaderboard-list li strong {
+    color: var(--header-color);
+}

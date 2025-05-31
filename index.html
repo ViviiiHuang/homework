@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日語練習小助手</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>日語練習小助手</h1>
+
+        <div id="auth-section">
+             <h2 id="auth-title">登入</h2>
+            <input type="text" id="auth-username" placeholder="使用者名稱">
+            <input type="email" id="auth-email" placeholder="Email">
+            <input type="password" id="auth-password" placeholder="密碼">
+            <button id="auth-submit-btn">登入</button>
+            <p id="auth-status"></p>
+            <p class="auth-toggle" id="register-link-container">
+                還沒有帳號？<a href="#" id="register-link">註冊</a>
+            </p>
+            <p class="auth-toggle hidden" id="login-link-container">
+                已經有帳號了？<a href="#" id="login-link">登入</a>
+            </p>
+        </div>
+
+        <div id="main-menu" class="hidden">
+            <div class="header-controls main-menu-controls"> <button id="main-menu-toggle" class="menu-toggle">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <span>選單</span>
+                </button>
+            </div>
+            <p id="welcome-message"></p>
+            <h2>學習模式</h2>
+            <button id="start-kana-practice">五十音練習</button>
+            <button id="start-vocabulary-practice">詞彙練習</button>
+            <button id="start-translation-practice">句子翻譯練習</button>
+            </div>
+
+        <div id="kana-practice-section" class="hidden">
+            <div class="header-controls">
+                <button id="menu-toggle-kana" class="menu-toggle">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <span>選單</span>
+                </button>
+            </div>
+            <h2>五十音練習</h2>
+            <p id="kana-display"></p>
+            <div id="kana-options" class="options-grid"></div>
+            <div id="kana-feedback"></div>
+            <div id="kana-score-display">得分: 0</div>
+            <button id="nextKana" class="hidden">下一題</button>
+        </div>
+
+        <div id="vocabulary-practice-section" class="hidden">
+            <div class="header-controls">
+                <button id="menu-toggle-vocabulary" class="menu-toggle">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <span>選單</span>
+                </button>
+            </div>
+            <h2>詞彙練習</h2>
+            <p id="vocabulary-display"></p>
+            <div id="vocabulary-options" class="options-grid"></div>
+            <div id="vocabulary-feedback"></div>
+            <div id="vocabulary-score-display">得分: 0</div>
+            <button id="nextVocabulary" class="hidden">下一題</button>
+        </div>
+
+        <div id="translation-practice-section" class="hidden">
+            <div class="header-controls">
+                <button id="menu-toggle-translation" class="menu-toggle">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <span>選單</span>
+                </button>
+            </div>
+            <h2>句子翻譯練習</h2>
+            <div id="translation-question-display"></div>
+            <input type="text" id="translation-input" placeholder="輸入中文翻譯">
+            <button id="checkTranslation">檢查</button>
+            <div id="translation-feedback"></div>
+            <div id="translation-score-display">得分: 0</div>
+            <button id="nextTranslation" class="hidden">下一題</button>
+        </div>
+
+        <div id="game-menu-overlay" class="hidden">
+            <div class="game-menu-content">
+                <h3>練習選單</h3>
+                <button id="resume-game">繼續練習</button>
+                <button id="return-to-main">回到主頁</button>
+                <button id="exit-game">退出練習</button>
+            </div>
+        </div>
+
+        <div id="main-menu-overlay" class="hidden">
+            <div class="game-menu-content"> <h3>主選單</h3>
+                <button id="view-leaderboard-from-menu">排行榜</button>
+                <button id="logout-from-menu">登出</button>
+                <button id="close-main-menu-overlay">關閉選單</button>
+            </div>
+        </div>
+
+
+        <div id="leaderboard-section" class="hidden">
+            <h2>即時排行榜</h2>
+            <ul id="leaderboard-list">
+                </ul>
+            <button id="backToMainMenuFromLeaderboard">返回主選單</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

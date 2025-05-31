@@ -1,0 +1,477 @@
+{
+  "vocabulary": {
+    "word1": {
+      "japanese": "こんにちは",
+      "chinese": "你好",
+      "romaji": "konnichiwa"
+    },
+    "word2": {
+      "japanese": "ありがとう",
+      "chinese": "謝謝",
+      "romaji": "arigato"
+    },
+    "word3": {
+      "japanese": "さようなら",
+      "chinese": "再見",
+      "romaji": "sayounara"
+    },
+    "word4": {
+      "japanese": "はい",
+      "chinese": "是",
+      "romaji": "hai"
+    },
+    "word5": {
+      "japanese": "いいえ",
+      "chinese": "不",
+      "romaji": "iie"
+    },
+    "word6": {
+      "japanese": "すみません",
+      "chinese": "不好意思 / 對不起",
+      "romaji": "sumimasen"
+    },
+    "word7": {
+      "japanese": "お願いします",
+      "chinese": "拜託了 / 請",
+      "romaji": "onegai shimasu"
+    },
+    "word8": {
+      "japanese": "どうぞ",
+      "chinese": "請 (どうぞ)",
+      "romaji": "douzo"
+    },
+    "word9": {
+      "japanese": "はじめまして",
+      "chinese": "初次見面",
+      "romaji": "hajimemashite"
+    },
+    "word10": {
+      "japanese": "いただきます",
+      "chinese": "我開動了",
+      "romaji": "itadakimasu"
+    },
+    "word11": {
+      "japanese": "ごちそうさまでした",
+      "chinese": "謝謝招待 (飯後)",
+      "romaji": "gochisousama deshita"
+    },
+    "word12": {
+      "japanese": "おはようございます",
+      "chinese": "早安",
+      "romaji": "ohayou gozaimasu"
+    },
+    "word13": {
+      "japanese": "こんばんは",
+      "chinese": "晚安 (晚上好)",
+      "romaji": "konbanwa"
+    },
+    "word14": {
+      "japanese": "おやすみなさい",
+      "chinese": "晚安 (睡前)",
+      "romaji": "oyasumi nasai"
+    },
+    "word15": {
+      "japanese": "お元気ですか？",
+      "chinese": "你好嗎？",
+      "romaji": "o-genki desu ka?"
+    },
+    "word16": {
+      "japanese": "お名前は？",
+      "chinese": "你叫什麼名字？",
+      "romaji": "o-namae wa?"
+    },
+    "word17": {
+      "japanese": "日本",
+      "chinese": "日本",
+      "romaji": "nihon"
+    },
+    "word18": {
+      "japanese": "学生",
+      "chinese": "學生",
+      "romaji": "gakusei"
+    },
+    "word19": {
+      "japanese": "先生",
+      "chinese": "老師",
+      "romaji": "sensei"
+    },
+    "word20": {
+      "japanese": "水",
+      "chinese": "水",
+      "romaji": "mizu"
+    },
+    "word21": {
+      "japanese": "食べ物",
+      "chinese": "食物",
+      "romaji": "tabemono"
+    },
+    "word22": {
+      "japanese": "家族",
+      "chinese": "家人",
+      "romaji": "kazoku"
+    },
+    "word23": {
+      "japanese": "友達",
+      "chinese": "朋友",
+      "romaji": "tomodachi"
+    },
+    "word24": {
+      "japanese": "美味しい",
+      "chinese": "好吃",
+      "romaji": "oishii"
+    },
+    "word25": {
+      "japanese": "可愛い",
+      "chinese": "可愛",
+      "romaji": "kawaii"
+    },
+    "word26": {
+      "japanese": "大きい",
+      "chinese": "大",
+      "romaji": "ookii"
+    },
+    "word27": {
+      "japanese": "小さい",
+      "chinese": "小",
+      "romaji": "chiisai"
+    },
+    "word28": {
+      "japanese": "高い",
+      "chinese": "高 / 貴",
+      "romaji": "takai"
+    },
+    "word29": {
+      "japanese": "安い",
+      "chinese": "便宜",
+      "romaji": "yasui"
+    },
+    "word30": {
+      "japanese": "新しい",
+      "chinese": "新的",
+      "romaji": "atarashii"
+    },
+    "word31": {
+      "japanese": "古い",
+      "chinese": "舊的",
+      "romaji": "furui"
+    },
+    "word32": {
+      "japanese": "良い",
+      "chinese": "好",
+      "romaji": "ii / yoi"
+    },
+    "word33": {
+      "japanese": "悪い",
+      "chinese": "壞",
+      "romaji": "warui"
+    },
+    "word34": {
+      "japanese": "行く",
+      "chinese": "去",
+      "romaji": "iku"
+    },
+    "word35": {
+      "japanese": "来る",
+      "chinese": "來",
+      "romaji": "kuru"
+    }
+  },
+  "kana_practice": {
+    "hiragana_a": { "kana": "あ", "romaji": "a", "type": "hiragana" },
+    "hiragana_i": { "kana": "い", "romaji": "i", "type": "hiragana" },
+    "hiragana_u": { "kana": "う", "romaji": "u", "type": "hiragana" },
+    "hiragana_e": { "kana": "え", "romaji": "e", "type": "hiragana" },
+    "hiragana_o": { "kana": "お", "romaji": "o", "type": "hiragana" },
+    "hiragana_ka": { "kana": "か", "romaji": "ka", "type": "hiragana" },
+    "hiragana_ki": { "kana": "き", "romaji": "ki", "type": "hiragana" },
+    "hiragana_ku": { "kana": "く", "romaji": "ku", "type": "hiragana" },
+    "hiragana_ke": { "kana": "け", "romaji": "ke", "type": "hiragana" },
+    "hiragana_ko": { "kana": "こ", "romaji": "ko", "type": "hiragana" },
+    "hiragana_sa": { "kana": "さ", "romaji": "sa", "type": "hiragana" },
+    "hiragana_shi": { "kana": "し", "romaji": "shi", "type": "hiragana" },
+    "hiragana_su": { "kana": "す", "romaji": "su", "type": "hiragana" },
+    "hiragana_se": { "kana": "せ", "romaji": "se", "type": "hiragana" },
+    "hiragana_so": { "kana": "そ", "romaji": "so", "type": "hiragana" },
+    "hiragana_ta": { "kana": "た", "romaji": "ta", "type": "hiragana" },
+    "hiragana_chi": { "kana": "ち", "romaji": "chi", "type": "hiragana" },
+    "hiragana_tsu": { "kana": "つ", "romaji": "tsu", "type": "hiragana" },
+    "hiragana_te": { "kana": "て", "romaji": "te", "type": "hiragana" },
+    "hiragana_to": { "kana": "と", "romaji": "to", "type": "hiragana" },
+    "hiragana_na": { "kana": "な", "romaji": "na", "type": "hiragana" },
+    "hiragana_ni": { "kana": "に", "romaji": "ni", "type": "hiragana" },
+    "hiragana_nu": { "kana": "ぬ", "romaji": "nu", "type": "hiragana" },
+    "hiragana_ne": { "kana": "ね", "romaji": "ne", "type": "hiragana" },
+    "hiragana_no": { "kana": "の", "romaji": "no", "type": "hiragana" },
+    "hiragana_ha": { "kana": "は", "romaji": "ha", "type": "hiragana" },
+    "hiragana_hi": { "kana": "ひ", "romaji": "hi", "type": "hiragana" },
+    "hiragana_fu": { "kana": "ふ", "romaji": "fu", "type": "hiragana" },
+    "hiragana_he": { "kana": "へ", "romaji": "he", "type": "hiragana" },
+    "hiragana_ho": { "kana": "ほ", "romaji": "ho", "type": "hiragana" },
+    "hiragana_ma": { "kana": "ま", "romaji": "ma", "type": "hiragana" },
+    "hiragana_mi": { "kana": "み", "romaji": "mi", "type": "hiragana" },
+    "hiragana_mu": { "kana": "む", "romaji": "mu", "type": "hiragana" },
+    "hiragana_me": { "kana": "め", "romaji": "me", "type": "hiragana" },
+    "hiragana_mo": { "kana": "も", "romaji": "mo", "type": "hiragana" },
+    "hiragana_ya": { "kana": "や", "romaji": "ya", "type": "hiragana" },
+    "hiragana_yu": { "kana": "ゆ", "romaji": "yu", "type": "hiragana" },
+    "hiragana_yo": { "kana": "よ", "romaji": "yo", "type": "hiragana" },
+    "hiragana_ra": { "kana": "ら", "romaji": "ra", "type": "hiragana" },
+    "hiragana_ri": { "kana": "り", "romaji": "ri", "type": "hiragana" },
+    "hiragana_ru": { "kana": "る", "romaji": "ru", "type": "hiragana" },
+    "hiragana_re": { "kana": "れ", "romaji": "re", "type": "hiragana" },
+    "hiragana_ro": { "kana": "ろ", "romaji": "ro", "type": "hiragana" },
+    "hiragana_wa": { "kana": "わ", "romaji": "wa", "type": "hiragana" },
+    "hiragana_wo": { "kana": "を", "romaji": "wo", "type": "hiragana" },
+    "hiragana_n": { "kana": "ん", "romaji": "n", "type": "hiragana" },
+
+    "katakana_a": { "kana": "ア", "romaji": "a", "type": "katakana" },
+    "katakana_i": { "kana": "イ", "romaji": "i", "type": "katakana" },
+    "katakana_u": { "kana": "ウ", "romaji": "u", "type": "katakana" },
+    "katakana_e": { "kana": "エ", "romaji": "e", "type": "katakana" },
+    "katakana_o": { "kana": "オ", "romaji": "o", "type": "katakana" },
+    "katakana_ka": { "kana": "カ", "romaji": "ka", "type": "katakana" },
+    "katakana_ki": { "kana": "キ", "romaji": "ki", "type": "katakana" },
+    "katakana_ku": { "kana": "ク", "romaji": "ku", "type": "katakana" },
+    "katakana_ke": { "kana": "ケ", "romaji": "ke", "type": "katakana" },
+    "katakana_ko": { "kana": "コ", "romaji": "ko", "type": "katakana" },
+    "katakana_sa": { "kana": "サ", "romaji": "sa", "type": "katakana" },
+    "katakana_shi": { "kana": "シ", "romaji": "shi", "type": "katakana" },
+    "katakana_su": { "kana": "ス", "romaji": "su", "type": "katakana" },
+    "katakana_se": { "kana": "セ", "romaji": "se", "type": "katakana" },
+    "katakana_so": { "kana": "ソ", "romaji": "so", "type": "katakana" },
+    "katakana_ta": { "kana": "タ", "romaji": "ta", "type": "katakana" },
+    "katakana_chi": { "kana": "チ", "romaji": "chi", "type": "katakana" },
+    "katakana_tsu": { "kana": "ツ", "romaji": "tsu", "type": "katakana" },
+    "katakana_te": { "kana": "テ", "romaji": "te", "type": "katakana" },
+    "katakana_to": { "kana": "ト", "romaji": "to", "type": "katakana" },
+    "katakana_na": { "kana": "ナ", "romaji": "na", "type": "katakana" },
+    "katakana_ni": { "kana": "ニ", "romaji": "ni", "type": "katakana" },
+    "katakana_nu": { "kana": "ヌ", "romaji": "nu", "type": "katakana" },
+    "katakana_ne": { "kana": "ネ", "romaji": "ne", "type": "katakana" },
+    "katakana_no": { "kana": "ノ", "romaji": "no", "type": "katakana" },
+    "katakana_ha": { "kana": "ハ", "romaji": "ha", "type": "katakana" },
+    "katakana_hi": { "kana": "ヒ", "romaji": "hi", "type": "katakana" },
+    "katakana_fu": { "kana": "フ", "romaji": "fu", "type": "katakana" },
+    "katakana_he": { "kana": "ヘ", "romaji": "he", "type": "katakana" },
+    "katakana_ho": { "kana": "ホ", "romaji": "ho", "type": "katakana" },
+    "katakana_ma": { "kana": "マ", "romaji": "ma", "type": "katakana" },
+    "katakana_mi": { "kana": "ミ", "romaji": "mi", "type": "katakana" },
+    "katakana_mu": { "kana": "ム", "romaji": "mu", "type": "katakana" },
+    "katakana_me": { "kana": "メ", "romaji": "me", "type": "katakana" },
+    "katakana_mo": { "kana": "モ", "romaji": "mo", "type": "katakana" },
+    "katakana_ya": { "kana": "ヤ", "romaji": "ya", "type": "katakana" },
+    "katakana_yu": { "kana": "ユ", "romaji": "yu", "type": "katakana" },
+    "katakana_yo": { "kana": "ヨ", "romaji": "yo", "type": "katakana" },
+    "katakana_ra": { "kana": "ラ", "romaji": "ra", "type": "katakana" },
+    "katakana_ri": { "kana": "リ", "romaji": "ri", "type": "katakana" },
+    "katakana_ru": { "kana": "ル", "romaji": "ru", "type": "katakana" },
+    "katakana_re": { "kana": "レ", "romaji": "re", "type": "katakana" },
+    "katakana_ro": { "kana": "ロ", "romaji": "ro", "type": "katakana" },
+    "katakana_wa": { "kana": "ワ", "romaji": "wa", "type": "katakana" },
+    "katakana_wo": { "kana": "ヲ", "romaji": "wo", "type": "katakana" },
+    "katakana_n": { "kana": "ン", "romaji": "n", "type": "katakana" },
+
+    "hiragana_ga": { "kana": "が", "romaji": "ga", "type": "hiragana" },
+    "hiragana_gi": { "kana": "ぎ", "romaji": "gi", "type": "hiragana" },
+    "hiragana_gu": { "kana": "ぐ", "romaji": "gu", "type": "hiragana" },
+    "hiragana_ge": { "kana": "げ", "romaji": "ge", "type": "hiragana" },
+    "hiragana_go": { "kana": "ご", "romaji": "go", "type": "hiragana" },
+    "hiragana_za": { "kana": "ざ", "romaji": "za", "type": "hiragana" },
+    "hiragana_ji": { "kana": "じ", "romaji": "ji", "type": "hiragana" },
+    "hiragana_zu": { "kana": "ず", "romaji": "zu", "type": "hiragana" },
+    "hiragana_ze": { "kana": "ぜ", "romaji": "ze", "type": "hiragana" },
+    "hiragana_zo": { "kana": "ぞ", "romaji": "zo", "type": "hiragana" },
+    "hiragana_da": { "kana": "だ", "romaji": "da", "type": "hiragana" },
+    "hiragana_dji": { "kana": "ぢ", "romaji": "ji", "type": "hiragana" },
+    "hiragana_dzu": { "kana": "づ", "romaji": "zu", "type": "hiragana" },
+    "hiragana_de": { "kana": "で", "romaji": "de", "type": "hiragana" },
+    "hiragana_do": { "kana": "ど", "romaji": "do", "type": "hiragana" },
+    "hiragana_ba": { "kana": "ば", "romaji": "ba", "type": "hiragana" },
+    "hiragana_bi": { "kana": "び", "romaji": "bi", "type": "hiragana" },
+    "hiragana_bu": { "kana": "ぶ", "romaji": "bu", "type": "hiragana" },
+    "hiragana_be": { "kana": "べ", "romaji": "be", "type": "hiragana" },
+    "hiragana_bo": { "kana": "ぼ", "romaji": "bo", "type": "hiragana" },
+    "hiragana_pa": { "kana": "ぱ", "romaji": "pa", "type": "hiragana" },
+    "hiragana_pi": { "kana": "ぴ", "romaji": "pi", "type": "hiragana" },
+    "hiragana_pu": { "kana": "ぷ", "romaji": "pu", "type": "hiragana" },
+    "hiragana_pe": { "kana": "ぺ", "romaji": "pe", "type": "hiragana" },
+    "hiragana_po": { "kana": "ぽ", "romaji": "po", "type": "hiragana" },
+
+    "katakana_ga": { "kana": "ガ", "romaji": "ga", "type": "katakana" },
+    "katakana_gi": { "kana": "ギ", "romaji": "gi", "type": "katakana" },
+    "katakana_gu": { "kana": "グ", "romaji": "gu", "type": "katakana" },
+    "katakana_ge": { "kana": "ゲ", "romaji": "ge", "type": "katakana" },
+    "katakana_go": { "kana": "ゴ", "romaji": "go", "type": "katakana" },
+    "katakana_za": { "kana": "ザ", "romaji": "za", "type": "katakana" },
+    "katakana_ji": { "kana": "ジ", "romaji": "ji", "type": "katakana" },
+    "katakana_zu": { "kana": "ズ", "romaji": "zu", "type": "katakana" },
+    "katakana_ze": { "kana": "ゼ", "romaji": "ze", "type": "katakana" },
+    "katakana_zo": { "kana": "ゾ", "romaji": "zo", "type": "katakana" },
+    "katakana_da": { "kana": "ダ", "romaji": "da", "type": "katakana" },
+    "katakana_dji": { "kana": "ヂ", "romaji": "ji", "type": "katakana" },
+    "katakana_dzu": { "kana": "ヅ", "romaji": "zu", "type": "katakana" },
+    "katakana_de": { "kana": "デ", "romaji": "de", "type": "katakana" },
+    "katakana_do": { "kana": "ド", "romaji": "do", "type": "katakana" },
+    "katakana_ba": { "kana": "バ", "romaji": "ba", "type": "katakana" },
+    "katakana_bi": { "kana": "ビ", "romaji": "bi", "type": "katakana" },
+    "katakana_bu": { "kana": "ブ", "romaji": "bu", "type": "katakana" },
+    "katakana_be": { "kana": "ベ", "romaji": "be", "type": "katakana" },
+    "katakana_bo": { "kana": "ボ", "romaji": "bo", "type": "katakana" },
+    "katakana_pa": { "kana": "パ", "romaji": "pa", "type": "katakana" },
+    "katakana_pi": { "kana": "ピ", "romaji": "pi", "type": "katakana" },
+    "katakana_pu": { "kana": "プ", "romaji": "pu", "type": "katakana" },
+    "katakana_pe": { "kana": "ペ", "romaji": "pe", "type": "katakana" },
+    "katakana_po": { "kana": "ポ", "romaji": "po", "type": "katakana" },
+
+    "hiragana_kya": { "kana": "きゃ", "romaji": "kya", "type": "hiragana" },
+    "hiragana_kyu": { "kana": "きゅ", "romaji": "kyu", "type": "hiragana" },
+    "hiragana_kyo": { "kana": "きょ", "romaji": "kyo", "type": "hiragana" },
+    "hiragana_sha": { "kana": "しゃ", "romaji": "sha", "type": "hiragana" },
+    "hiragana_shu": { "kana": "しゅ", "romaji": "shu", "type": "hiragana" },
+    "hiragana_sho": { "kana": "しょ", "romaji": "sho", "type": "hiragana" },
+    "hiragana_cha": { "kana": "ちゃ", "romaji": "cha", "type": "hiragana" },
+    "hiragana_chu": { "kana": "ちゅ", "romaji": "chu", "type": "hiragana" },
+    "hiragana_cho": { "kana": "ちょ", "romaji": "cho", "type": "hiragana" },
+    "hiragana_nya": { "kana": "にゃ", "romaji": "nya", "type": "hiragana" },
+    "hiragana_nyu": { "kana": "にゅ", "romaji": "nyu", "type": "hiragana" },
+    "hiragana_nyo": { "kana": "にょ", "romaji": "nyo", "type": "hiragana" },
+    "hiragana_hya": { "kana": "ひゃ", "romaji": "hya", "type": "hiragana" },
+    "hiragana_hyu": { "kana": "ひゅ", "romaji": "hyu", "type": "hiragana" },
+    "hiragana_hyo": { "kana": "ひょ", "romaji": "hyo", "type": "hiragana" },
+    "hiragana_mya": { "kana": "みゃ", "romaji": "mya", "type": "hiragana" },
+    "hiragana_myu": { "kana": "みゅ", "romaji": "myu", "type": "hiragana" },
+    "hiragana_myo": { "kana": "みょ", "romaji": "myo", "type": "hiragana" },
+    "hiragana_rya": { "kana": "りゃ", "romaji": "rya", "type": "hiragana" },
+    "hiragana_ryu": { "kana": "りゅ", "romaji": "ryu", "type": "hiragana" },
+    "hiragana_ryo": { "kana": "りょ", "romaji": "ryo", "type": "hiragana" },
+
+    "katakana_kya": { "kana": "キャ", "romaji": "kya", "type": "katakana" },
+    "katakana_kyu": { "kana": "キュ", "romaji": "kyu", "type": "katakana" },
+    "katakana_kyo": { "kana": "キョ", "romaji": "kyo", "type": "katakana" },
+    "katakana_sha": { "kana": "シャ", "romaji": "sha", "type": "katakana" },
+    "katakana_shu": { "kana": "シュ", "romaji": "shu", "type": "katakana" },
+    "katakana_sho": { "kana": "ショ", "romaji": "sho", "type": "katakana" },
+    "katakana_cha": { "kana": "チャ", "romaji": "cha", "type": "katakana" },
+    "katakana_chu": { "kana": "チュ", "romaji": "chu", "type": "katakana" },
+    "katakana_cho": { "kana": "チョ", "romaji": "cho", "type": "katakana" },
+    "katakana_nya": { "kana": "ニャ", "romaji": "nya", "type": "katakana" },
+    "katakana_nyu": { "kana": "ニュ", "romaji": "nyu", "type": "katakana" },
+    "katakana_nyo": { "kana": "ニョ", "romaji": "nyo", "type": "katakana" },
+    "katakana_hya": { "kana": "ヒャ", "romaji": "hya", "type": "katakana" },
+    "katakana_hyu": { "kana": "ヒュ", "romaji": "hyu", "type": "katakana" },
+    "katakana_hyo": { "kana": "ヒョ", "romaji": "hyo", "type": "katakana" },
+    "katakana_mya": { "kana": "ミャ", "romaji": "mya", "type": "katakana" },
+    "katakana_myu": { "kana": "ミュ", "romaji": "myu", "type": "katakana" },
+    "katakana_myo": { "kana": "ミョ", "romaji": "myo", "type": "katakana" },
+    "katakana_rya": { "kana": "リャ", "romaji": "rya", "type": "katakana" },
+    "katakana_ryu": { "kana": "リュ", "romaji": "ryu", "type": "katakana" },
+    "katakana_ryo": { "kana": "リョ", "romaji": "ryo", "type": "katakana" },
+    "katakana_gya": { "kana": "ギャ", "romaji": "gya", "type": "katakana" },
+    "katakana_gyu": { "kana": "ギュ", "romaji": "gyu", "type": "katakana" },
+    "katakana_gyo": { "kana": "ギョ", "romaji": "gyo", "type": "katakana" },
+    "katakana_ja": { "kana": "ジャ", "romaji": "ja", "type": "katakana" },
+    "katakana_ju": { "kana": "ジュ", "romaji": "ju", "type": "katakana" },
+    "katakana_jo": { "kana": "ジョ", "romaji": "jo", "type": "katakana" },
+    "katakana_bya": { "kana": "ビャ", "romaji": "bya", "type": "katakana" },
+    "katakana_byu": { "kana": "ビュ", "romaji": "byu", "type": "katakana" },
+    "katakana_byo": { "kana": "ビョ", "romaji": "byo", "type": "katakana" },
+    "katakana_pya": { "kana": "ピャ", "romaji": "pya", "type": "katakana" },
+    "katakana_pyu": { "kana": "ピュ", "type": "katakana" },
+    "katakana_pyo": { "kana": "ピョ", "romaji": "pyo", "type": "katakana" }
+  },
+  "sentences_translation": {
+    "sentence1": {
+      "japanese": "これは何ですか？",
+      "chinese": "這是什麼？"
+    },
+    "sentence2": {
+      "japanese": "私は学生です。",
+      "chinese": "我是學生。"
+    },
+    "sentence3": {
+      "japanese": "お元気ですか？",
+      "chinese": "你好嗎？"
+    },
+    "sentence4": {
+      "japanese": "これは美味しいです。",
+      "chinese": "這個很好吃。"
+    },
+    "sentence5": {
+      "japanese": "どこに行きますか？",
+      "chinese": "你要去哪裡？"
+    },
+    "sentence6": {
+      "japanese": "お名前は何ですか？",
+      "chinese": "你叫什麼名字？"
+    },
+    "sentence7": {
+      "japanese": "いくらですか？",
+      "chinese": "多少錢？"
+    },
+    "sentence8": {
+      "japanese": "駅はどこですか？",
+      "chinese": "車站在哪裡？"
+    },
+    "sentence9": {
+      "japanese": "お手洗い、どこですか？",
+      "chinese": "洗手間在哪裡？"
+    },
+    "sentence10": {
+      "japanese": "日本語が話せません。",
+      "chinese": "我不會說日語。"
+    },
+    "sentence11": {
+      "japanese": "英語が話せますか？",
+      "chinese": "你會說英語嗎？"
+    },
+    "sentence12": {
+      "japanese": "助けてください。",
+      "chinese": "請幫幫我。"
+    },
+    "sentence13": {
+      "japanese": "もう一度お願いします。",
+      "chinese": "請再說一次。"
+    },
+    "sentence14": {
+      "japanese": "ゆっくり話してください。",
+      "chinese": "請說慢一點。"
+    },
+    "sentence15": {
+      "japanese": "理解できません。",
+      "chinese": "我不明白。"
+    },
+    "sentence16": {
+      "japanese": "ありがとうございます。",
+      "chinese": "非常感謝。"
+    },
+    "sentence17": {
+      "japanese": "どういたしまして。",
+      "chinese": "不客氣。"
+    },
+    "sentence18": {
+      "japanese": "ごめんなさい。",
+      "chinese": "抱歉。"
+    },
+    "sentence19": {
+      "japanese": "また会いましょう。",
+      "chinese": "再見 / 再會。"
+    },
+    "sentence20": {
+      "japanese": "今日はお疲れ様でした。",
+      "chinese": "今天辛苦了。"
+    }
+  },
+
+  "user_progress": {
+    "user123": {
+      "last_login": "2025-05-20T10:00:00Z",
+      "vocab_quiz_score": 85,
+      "vocab_quiz_attempts": 10,
+      "words_mastered": {
+        "word1": true,
+        "word2": true
+      },
+      "daily_streak": 5
+    }
+  }
+}
